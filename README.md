@@ -4,6 +4,47 @@ Website organisasi/perusahaan berbasis **Lumen 10**, **PHP 8.1**, **MySQL**, **P
 
 Template komunitas untuk dipelajari dan disesuaikan, bukan layanan yang berafiliasi dengan bank tertentu. Konten contoh dan kebijakan hukum masih berupa template. Lakukan audit keamanan, pembaruan stack, dan peninjauan kebijakan sebelum produksi.
 
+## Preview
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/1.png" alt="Hero Beranda">
+      <br><b>Hero Beranda</b>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/2.png" alt="Bagian Jelajahi">
+      <br><b>Bagian Jelajahi</b>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/4.png" alt="Profil, Sejarah, dan Visi">
+      <br><b>Profil, Sejarah, dan Visi</b>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/3.png" alt="Filter dan Kartu Artikel">
+      <br><b>Filter dan Kartu Artikel</b>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/6.png" alt="Laporan dan Dropdown Menu">
+      <br><b>Laporan dan Dropdown Menu</b>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/5.png" alt="Formulir dan Panel Kontak">
+      <br><b>Formulir dan Panel Kontak</b>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="docs/screenshots/7.png" alt="Direktori Footer">
+      <br><b>Direktori Footer</b>
+    </td>
+  </tr>
+</table>
+
 ## Mulai cepat
 
 Siapkan PHP dan extension di bawah, Composer 2, serta database MySQL kosong. Tidak perlu Node.js atau build frontend.
