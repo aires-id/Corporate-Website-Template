@@ -58,8 +58,6 @@ Sebelum digunakan sebagai kebijakan resmi, lengkapi seluruh penanda kurung siku:
 
 Catatan implementasi: cookie consent berlaku satu tahun tetapi salinan local storage belum memiliki expiry; hit artikel berbasis sesi berjalan terlepas dari consent iklan; penghapusan otomatis menyeluruh untuk pesan dan hit artikel belum tersedia. Inventaris pihak ketiga perlu diaudit pada produksi sebelum iklan diaktifkan. Perubahan ini hanya menyusun template, bukan menambah mekanisme consent atau retensi.
 
-Referensi struktur (bukan salinan atau afiliasi): [Hana Bank](https://myhana.co.id/gibPT/intn/info/privacyCookies). Acuan peninjauan hukum: [UU 27/2022 pada JDIH](https://peraturan.go.id/id/uu-no-27-tahun-2022). Setelah persetujuan resmi, perbarui status/versi/tanggal pada view, konten, dan keputusan indeksasi di `SiteController::policyPage`.
-
 - Beranda organisasi yang responsif, navbar desktop yang dapat digulir, dan side navigation mobile dengan overlay, tombol tutup, klik-area-luar, serta tombol Escape.
 - Halaman tentang, struktur organisasi, laporan keuangan PDF, artikel, kerja sama, project, hubungan investor, kontak, kebijakan cookie, dan kebijakan privasi.
 - Cookie consent tersimpan di `localStorage` dan cookie. Google Ads hanya dimuat jika `GOOGLE_ADS_CLIENT_ID` tersedia dan pengunjung memilih **Terima**.
