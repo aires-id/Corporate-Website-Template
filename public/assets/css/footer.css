@@ -1,0 +1,54 @@
+/* SPDX-License-Identifier: NCSA */
+/* Shared public footer; separately versioned to prevent stale layout styles. */
+.corporate-footer { padding: 0; border-top: 3px solid #c9142b; background: #202228; }
+.footer-resources { background: #f3f4f5; border-top: 1px solid #e3e4e7; color: #24262c; }
+.footer-resources-inner { display: grid; grid-template-columns: 1.15fr repeat(3, 1fr); padding-block: 2rem; gap: 1.5rem; align-items: center; }
+.footer-kicker { color: #b20f26; font-size: .67rem; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+.footer-resource-intro h2 { font-size: 1.3rem; margin: .4rem 0 0; }
+.corporate-footer .footer-resources-inner > a { display: flex; align-items: center; justify-content: space-between; gap: .8rem; padding: 1rem 0 1rem 1.4rem; border-left: 1px solid #d7d9df; color: #24262c; }
+.footer-resources small { display: block; color: #62656e; font-size: .72rem; margin-bottom: .35rem; }
+.corporate-footer .footer-resources strong { color: #24262c; font-size: .86rem; letter-spacing: 0; }
+.footer-resources-inner > a > span:last-child { color: #c9142b; font-size: 1.3rem; }
+.footer-directory { display: grid; grid-template-columns: 1.4fr 1fr 1.1fr 1.15fr; gap: 2.5rem; padding-block: 3.5rem; }
+.footer-directory > * { min-width: 0; }
+.corporate-footer .footer-brand { display: flex; align-items: center; gap: .75rem; font-size: 1.15rem; font-weight: 800; }
+.footer-brand img { max-width: 180px; height: 52px; object-fit: contain; background: white; border-radius: 4px; padding: .3rem; }
+.corporate-footer .footer-identity p { font-size: .82rem; margin: 1.2rem 0; max-width: 30ch; }
+.corporate-footer .footer-contact-link { display: inline-flex; align-items: center; gap: 1.5rem; font-size: .82rem; padding-bottom: .55rem; border-bottom: 1px solid #e4596a; }
+.footer-column h2 { color: #fff; font-size: .84rem; margin: .6rem 0 1.2rem; font-weight: 700; }
+.footer-column ul, .footer-legal ul { list-style: none; padding: 0; margin: 0; }
+.footer-column li { list-style: none; margin: 0; padding: 0; }
+.corporate-footer .footer-column li a { padding: .4rem 0; font-size: .8rem; color: #c7c8ce; line-height: 1.6; }
+.corporate-footer .footer-column address { font-size: .8rem; margin: 0 0 1rem; overflow-wrap: anywhere; }
+.footer-column address p { margin: 0 0 .7rem; }
+.footer-contact-label { display: block; color: #aeb0ba; font-size: .68rem; margin-top: .7rem; margin-bottom: .2rem; }
+.corporate-footer .footer-message { display: inline-flex; align-items: center; justify-content: space-between; gap: 2rem; border: 1px solid #676a75; border-radius: 4px; padding: .65rem 1rem; font-size: .8rem; }
+.footer-legal { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem; border-top: 1px solid #454750; padding-block: 1.4rem; font-size: .7rem; }
+.corporate-footer .footer-legal p { margin: 0; }
+.footer-legal ul { display: flex; flex-wrap: wrap; gap: .5rem 1.3rem; }
+.footer-legal li { list-style: none; margin: 0; padding: 0; }
+.corporate-footer .footer-legal a { color: #c7c8ce; padding-block: .35rem; }
+.footer-to-top span { margin-left: .6rem; color: #ff8d9c; }
+.corporate-footer a:hover { color: #ffb8c2; text-decoration: underline; text-underline-offset: .25em; }
+.corporate-footer .footer-resources a:hover strong { color: #b20f26; }
+.corporate-footer a:focus-visible { outline: 2px solid #e76577; outline-offset: 5px; }
+@media (max-width: 800px) {
+  .footer-resources-inner { grid-template-columns: repeat(3, 1fr); }
+  .footer-resource-intro { grid-column: 1 / -1; }
+  .footer-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+}
+@media (max-width: 560px) {
+  .footer-resources-inner { grid-template-columns: 1fr; gap: 0; padding-block: 1.6rem; }
+  .footer-resource-intro { margin-bottom: 1rem; }
+  .corporate-footer .footer-resources-inner > a { border-left: 0; border-top: 1px solid #d7d9df; padding: 1rem 0; }
+  .footer-directory { gap: 1.8rem 1rem; padding-block: 2rem; }
+  .footer-identity, .footer-reach { grid-column: 1 / -1; }
+  .corporate-footer .footer-identity p { max-width: 40ch; }
+  .footer-reach { border-top: 1px solid #454750; padding-top: 1rem; }
+  .footer-legal { align-items: flex-start; flex-direction: column; gap: .6rem; }
+}
+.corporate-footer ul li { list-style: none; }
+.corporate-footer ul li::marker { content: ''; }
+.corporate-footer .footer-column h2 { color: #ffffff; line-height: 1.5; }
+.corporate-footer .footer-brand { overflow-wrap: anywhere; }
+.corporate-footer .footer-directory { align-items: start; }
